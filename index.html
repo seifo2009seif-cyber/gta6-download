@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101018">
+  <meta name="description" content="A fan-made GTA VI landing page featuring trailer links and a release countdown.">
+  <title>Grand Theft Auto VI — Fan Site</title>
+  <link rel="icon" type="image/png" href="img/gtalogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="GTA VI fan site home"><img src="img/gtalogo.png" alt="Rockstar-inspired R star logo"></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#story">Overview</a>
+      <a href="#trailers">Trailers</a>
+      <a href="#countdown">Countdown</a>
+      <a class="nav-official" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener noreferrer">Official site <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-image" role="img" aria-label="GTA VI-inspired sunset city artwork"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Welcome to Leonida</p>
+        <h1 id="heroTitle">GRAND<br><span>THEFT</span><br>AUTO <em>VI</em></h1>
+        <p class="hero-copy">A new state. A new story. A whole lot of trouble.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#trailers">Explore the trailers <span aria-hidden="true">↓</span></a>
+          <a class="button button-ghost" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener noreferrer">Visit Rockstar <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-caption"><span class="caption-dot"></span> FAN-MADE WEBSITE · NOT AFFILIATED WITH ROCKSTAR GAMES</div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to overview"><span></span></a>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <div class="section-kicker">01 / THE NEXT CHAPTER</div>
+      <div class="intro-grid">
+        <div><h2>THE CITY<br>NEVER <span>SLEEPS.</span></h2></div>
+        <div class="intro-text"><p>Welcome to the sun-soaked streets and neon nights of Leonida. Get a closer look at the world of Grand Theft Auto VI through the trailers below.</p><p class="muted">This is an unofficial fan project made for practice and entertainment. For confirmed news and updates, check Rockstar Games.</p><a class="text-link" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener noreferrer">Explore the official page <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="trailers section-wrap" id="trailers">
+      <div class="section-heading"><div><div class="section-kicker">02 / WATCH THE WORLD</div><h2>THE <span>TRAILERS</span></h2></div><p>Choose a trailer to watch it in the player.</p></div>
+      <div class="trailer-grid">
+        <article class="trailer-card">
+          <button class="trailer-thumb" type="button" data-video="QdBZY2fkU-0" data-title="GTA VI — Trailer 1" aria-label="Play GTA VI Trailer 1">
+            <img src="img/trailer1.jpg" alt="Grand Theft Auto VI Trailer 1 artwork" loading="lazy">
+            <span class="play-button" aria-hidden="true">▶</span><span class="thumb-label">TRAILER 01</span>
+          </button>
+          <div class="trailer-info"><div><span class="card-number">01</span><h3>Trailer 1</h3></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          <p>First look at the world of Leonida.</p>
+        </article>
+        <article class="trailer-card">
+          <button class="trailer-thumb" type="button" data-video="VQRLujxTm3c" data-title="GTA VI — Trailer 2" aria-label="Play GTA VI Trailer 2">
+            <img src="img/trailer2.jpg" alt="Grand Theft Auto VI Trailer 2 artwork" loading="lazy">
+            <span class="play-button" aria-hidden="true">▶</span><span class="thumb-label">TRAILER 02</span>
+          </button>
+          <div class="trailer-info"><div><span class="card-number">02</span><h3>Trailer 2</h3></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+          <p>More characters, more places, more chaos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section" id="countdown">
+      <div class="countdown-bg" aria-hidden="true"></div>
+      <div class="countdown-inner"><div class="section-kicker">03 / MARK YOUR CALENDAR</div><h2>THE WAIT IS <span>ON.</span></h2><p class="countdown-subtitle">Countdown to the release date listed on this fan page</p>
+        <div class="countdown" aria-label="Countdown to release"><div class="time-box"><strong id="days">--</strong><span>Days</span></div><div class="time-box"><strong id="hours">--</strong><span>Hours</span></div><div class="time-box"><strong id="minutes">--</strong><span>Minutes</span></div><div class="time-box"><strong id="seconds">--</strong><span>Seconds</span></div></div>
+        <p class="release-date" id="releaseMessage">November 19, 2026 <span>·</span> Date shown for this fan project; verify updates with Rockstar.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="footer-brand" href="#top">GTA <span>VI</span></a><p>Fan-made project by Seif Faried.</p><p class="footer-note">Grand Theft Auto and related marks belong to their respective owners. This site is not an official Rockstar Games website.</p><a class="back-top" href="#top">Back to top ↑</a></footer>
+
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel"><div class="modal-header"><h2 id="modalTitle">Watch trailer</h2><button class="modal-close" type="button" aria-label="Close video">×</button></div><div class="video-frame"><iframe id="videoFrame" src="" title="GTA VI trailer video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><p class="video-fallback">If the player does not load, <a id="youtubeFallback" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">watch this trailer on YouTube ↗</a>.</p></div>
+  </div>
+</body>
+</html>
